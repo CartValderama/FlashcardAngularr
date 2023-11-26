@@ -497,7 +497,12 @@ li {
   .flashcard-qa {
     font-size: 12px;
   }
-
+  .skill{
+      font-size: 10px;
+  }
+  .bar{
+      height: 10px;
+  }
   .tool::after{
       font-size: 12px;
       width: 12rem;
