@@ -101,30 +101,88 @@ li {
   background-position-y: center;
   width: 140rem;
 }
-.cart img,
-.emil img,
-.elijah img{
-  width: 70%;
-}
-.elijah{
-    position:relative;
+.character img{
+  width: 50%;
 }
 .member-info {
   opacity: 1;
   filter: blur(0);
   transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out; /* Adjust the opacity transition duration as needed */
 }
-
   .member-info:hover {
     opacity: 0;
     filter: blur(2rem);
     transform: scale(1.05);
   }
-
-
-
 .searchBar {
   margin-left: -40px;
+}
+.bar{
+    opacity: 0;
+    width: 0%;
+    height: 15px;
+    transition: width 2s ease-in-out, opacity 1s ease-in-out;
+}
+
+.cart-cooking.active{
+    background-color: green;
+    opacity: 1;
+    width: 80%;
+    animation: grade-A 1.5s ease-in-out;
+}
+
+@keyframes grade-S {
+  13% {
+    background-color: darkred;
+  }
+
+  28% {
+    background-color: #BA0000;
+  }
+
+  43% {
+    background-color: orange;
+  }
+
+  58% {
+    background-color: yellow;
+  }
+
+  73% {
+    background-color: yellowgreen;
+  }
+
+  88% {
+    background-color: green;
+  }
+
+  100% {
+      background-color: rebeccapurple;
+  }
+}
+@keyframes grade-A {
+  20% {
+    background-color: darkred;
+  }
+
+  35% {
+    background-color: #BA0000;
+  }
+
+  50% {
+    background-color: orange;
+  }
+
+  65% {
+    background-color: yellow;
+  }
+
+  80% {
+    background-color: yellowgreen;
+  }
+  100% {
+    background-color: green;
+  }
 }
 
 

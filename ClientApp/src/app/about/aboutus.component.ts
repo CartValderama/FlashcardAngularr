@@ -8,15 +8,15 @@ import { Component, OnInit} from "@angular/core";
 
 export class AboutusComponent implements OnInit {
   ngOnInit() {
-    const memberInfo = document.querySelector('.member-info');
-    const test = document.querySelector('.test');
+    const cartInfo = document.querySelector('.member-info');
+    const cartCooking = document.querySelector('.cart-cooking');
 
-    memberInfo?.addEventListener('mouseenter', () => {
-      test?.classList.add('active');
+    cartInfo?.addEventListener('mouseenter', () => {
+      cartCooking?.classList.add('active');
     });
 
-    memberInfo?.addEventListener('mouseleave', () => {
-      test?.classList.remove('active');
+    cartInfo?.addEventListener('mouseleave', () => {
+      cartCooking?.classList.remove('active');
     });
   }
 }
