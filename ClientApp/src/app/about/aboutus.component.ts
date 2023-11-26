@@ -1,4 +1,4 @@
-import { Component} from "@angular/core";
+import { Component, OnInit} from "@angular/core";
 
 
 @Component({
@@ -6,4 +6,17 @@ import { Component} from "@angular/core";
   templateUrl: "./aboutus.component.html"
 })
 
-export class AboutusComponent { }
+export class AboutusComponent implements OnInit {
+  ngOnInit() {
+    const memberInfo = document.querySelector('.member-info');
+    const test = document.querySelector('.test');
+
+    memberInfo?.addEventListener('mouseenter', () => {
+      test?.classList.add('active');
+    });
+
+    memberInfo?.addEventListener('mouseleave', () => {
+      test?.classList.remove('active');
+    });
+  }
+}
