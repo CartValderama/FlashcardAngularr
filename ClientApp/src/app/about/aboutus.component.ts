@@ -10,7 +10,7 @@ export class AboutusComponent implements OnInit {
   ngOnInit() {
     const cartInfo = document.querySelector('.member-info.cart');
     const emilInfo = document.querySelector('.member-info.emil');
-    const elijahtInfo = document.querySelector('.member-info.elijah');
+    const elijahInfo = document.querySelector('.member-info.elijah');
 
     const cartCooking = document.querySelector('.cart-cooking');
     const cartIntelligence = document.querySelector('.cart-intelligence');
@@ -22,7 +22,10 @@ export class AboutusComponent implements OnInit {
     const emilSleeping = document.querySelector('.emil-sleeping');
     const emilHeight = document.querySelector('.emil-height');
 
-
+    const elijahDrawing = document.querySelector('.elijah-drawing');
+    const elijahJumpshot = document.querySelector('.elijah-jumpshot');
+    const elijahSleeping = document.querySelector('.elijah-sleeping');
+    const elijahHeight = document.querySelector('.elijah-height');
 
     cartInfo?.addEventListener('mouseenter', () => {
       cartCooking?.classList.add('active');
@@ -50,6 +53,20 @@ export class AboutusComponent implements OnInit {
       emilStrength?.classList.remove('active');
       emilSleeping?.classList.remove('active');
       emilHeight?.classList.remove('active');
+    });
+
+    elijahInfo?.addEventListener('mouseenter', () => {
+      elijahDrawing?.classList.add('active');
+      elijahJumpshot?.classList.add('active');
+      elijahSleeping?.classList.add('active');
+      elijahHeight?.classList.add('active');
+    });
+
+    elijahInfo?.addEventListener('mouseleave', () => {
+      elijahDrawing?.classList.remove('active');
+      elijahJumpshot?.classList.remove('active');
+      elijahSleeping?.classList.remove('active');
+      elijahHeight?.classList.remove('active');
     });
   }
 }

@@ -144,7 +144,7 @@ li {
   width: 5%;
 }
 .cart-height.active {
-  background-color: orange;
+  background-color: yellow;
   opacity: 1;
   width: 52%;
   animation: grade-C 1.5s ease-in-out;
@@ -175,7 +175,33 @@ li {
   width: 100%;
   animation: grade-S 1.5s ease-in-out;
 }
+/* ELIJAH */
+.elijah-drawing.active {
+  background-color: rebeccapurple;
+  opacity: 1;
+  width: 100%;
+  animation: grade-S 1.5s ease-in-out;
+}
 
+.elijah-jumpshot.active {
+  background-color: orange;
+  opacity: 1;
+  width: 30%;
+  animation: grade-D 1.5s ease-in-out;
+}
+
+.elijah-sleeping.active {
+  background-color: yellowgreen;
+  opacity: 1;
+  width: 65%;
+  animation: grade-C 1.5s ease-in-out;
+}
+
+.elijah-height.active {
+  background-color: darkred;
+  opacity: 1;
+  width: 4%;
+}
 @keyframes grade-S {
   13% {
     background-color: darkred;
