@@ -124,12 +124,30 @@ li {
     transition: width 2s ease-in-out, opacity 1s ease-in-out;
 }
 
+/* CART */
 .cart-cooking.active{
     background-color: green;
     opacity: 1;
     width: 80%;
     animation: grade-A 1.5s ease-in-out;
 }
+.cart-intelligence.active {
+  background-color: #BA0000;
+  opacity: 1;
+  width: 25%;
+  animation: grade-D 1.5s ease-in-out;
+}
+.cart-punctuality.active {
+  background-color: darkred;
+  opacity: 1;
+  width: 5%;
+}
+.cart-height.active {
+  background-color: yellowgreen;
+  opacity: 1;
+  width: 80%;
+  animation: grade-B 1.5s ease-in-out;
+} 
 
 @keyframes grade-S {
   13% {
@@ -184,6 +202,67 @@ li {
     background-color: green;
   }
 }
+@keyframes grade-B {
+  20% {
+    background-color: darkred;
+  }
+
+  40% {
+    background-color: #BA0000;
+  }
+
+  60% {
+    background-color: orange;
+  }
+
+  80% {
+    background-color: yellow;
+  }
+
+  100% {
+    background-color: yellowgreen;
+  }
+}
+@keyframes grade-C {
+  25% {
+    background-color: darkred;
+  }
+
+  50% {
+    background-color: #BA0000;
+  }
+
+  75% {
+    background-color: orange;
+  }
+
+  100% {
+    background-color: yellow;
+  }
+}
+@keyframes grade-D {
+  33% {
+    background-color: darkred;
+  }
+
+  66% {
+    background-color: #BA0000;
+  }
+
+  100% {
+    background-color: orange;
+  }
+}
+@keyframes grade-E {
+  50% {
+    background-color: darkred;
+  }
+
+  100% {
+    background-color: #BA0000;
+  }
+}
+
 
 
 /* Styles for the flip card animation */
