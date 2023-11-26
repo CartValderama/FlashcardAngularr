@@ -118,6 +118,7 @@ li {
   margin-left: -40px;
 }
 .bar{
+    border-radius: 5px;
     opacity: 0;
     width: 0%;
     height: 15px;
@@ -134,8 +135,8 @@ li {
 .cart-intelligence.active {
   background-color: #BA0000;
   opacity: 1;
-  width: 25%;
-  animation: grade-D 1.5s ease-in-out;
+  width: 14%;
+  animation: grade-E 1.5s ease-in-out;
 }
 .cart-punctuality.active {
   background-color: darkred;
@@ -143,11 +144,37 @@ li {
   width: 5%;
 }
 .cart-height.active {
-  background-color: yellowgreen;
+  background-color: orange;
   opacity: 1;
-  width: 80%;
-  animation: grade-B 1.5s ease-in-out;
-} 
+  width: 52%;
+  animation: grade-C 1.5s ease-in-out;
+}
+/* EMIL */
+.emil-curiosity.active {
+  background-color: green;
+  opacity: 1;
+  width: 84%;
+  animation: grade-A 1.5s ease-in-out;
+}
+
+.emil-strength.active {
+  background-color: darkred;
+  opacity: 1;
+  width: 10%;
+}
+
+.emil-sleeping.active {
+  background-color: darkred;
+  opacity: 1;
+  width: 5%;
+}
+
+.emil-height.active {
+  background-color: rebeccapurple;
+  opacity: 1;
+  width: 100%;
+  animation: grade-S 1.5s ease-in-out;
+}
 
 @keyframes grade-S {
   13% {
