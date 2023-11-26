@@ -303,7 +303,7 @@ li {
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 450px) {
   .flashcard-qa {
     font-size: 12px;
   }
