@@ -30,8 +30,8 @@ This project aims to revolutionize the way users engage with learning materials 
 - **RESTful API Development:**
   - Developed backend services following RESTful API guidelines. Controllers function primarily as an API layer to manage HTTP requests efficiently.
 
-- **Unit Testing:**
-  - Implemented unit tests for all controller files, ensuring code reliability and stability.
+- **Frontend Design and Styling:
+   - Designed and styled the user interface to provide an intuitive and aesthetically pleasing experience. Utilized bootstrap CSS techniques and Angular components to ensure responsiveness and a polished look across various devices.
 
 ## Technologies & Tools
 
