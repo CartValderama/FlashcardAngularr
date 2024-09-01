@@ -1,7 +1,3 @@
-Here’s a README description tailored for your innovative AI-enhanced study application:
-
----
-
 # AI-Enhanced Study Application
 
 ## Overview
